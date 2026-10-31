@@ -1,7 +1,7 @@
-# 👑 LAVARCH.APP - ICI JE PEUX DEVENIR MILLIONNAIRE
+# 👑 LAVARCH.APP -
 
-### MBOKA ROI UNIVERSEL - TOUT TELEPHONE 📱
-Le réseau qui rend millionnaire. 100% Kin.
+### MBOKA ROI 
+Le réseau de visionnaire . 100% Kin.
 
 > "Je ne veux pas être riche seul. Je veux que quand quelqu'un ouvre LAVARCH, il se dise: ICI, JE PEUX DEVENIR MILLIONNAIRE."
 
