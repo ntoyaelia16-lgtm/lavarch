@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LAVARCH - Triangle Millionnaire</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:-apple-system,system-ui}
+body{background:#f6f6f8;color:#111;padding-bottom:90px}
+.top{background:#000;color:#fff;padding:14px 16px;position:sticky;top:0;z-index:20;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:900;font-size:22px} .logo i{color:#00ff88;font-style:normal}
+.badge{background:#00ff88;color:#000;padding:5px 10px;border-radius:20px;font-size:11px;font-weight:900}
+.card{background:#fff;border-radius:20px;margin:12px;padding:16px;box-shadow:0 8px 30px rgba(0,0,0,.06)}
+.t{font-weight:900;font-size:17px;margin-bottom:10px}
+.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
+.tri{background:#101010;color:#fff;border-radius:16px;padding:12px;text-align:center;border:1px solid #222}
+.tri h2{color:#00ff88;font-size:26px} .tri p{font-size:10px;margin-top:4px;line-height:1.2}
+.wallet{background:linear-gradient(135deg,#000,#232323);color:#fff;border-radius:20px;padding:16px;display:flex;justify-content:space-between}
+.wallet h1{color:#00ff88;font-size:22px}
+.limit{background:#fff8d1;border:1px solid #ffeaa7;padding:10px;border-radius:12px;font-size:12px;margin-top:10px}
+.group{display:flex;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid #eee}
+.av{width:46px;height:46px;border-radius:50%;background:linear-gradient(135deg,#00ff88,#00d4ff);display:flex;align-items:center;justify-content:center;font-weight:900}
+.btn{width:100%;background:#00ff88;color:#000;border:none;padding:14px;border-radius:30px;font-weight:900;margin-top:12px;font-size:15px}
+.btn-dark{width:100%;background:#111;color:#fff;border:none;padding:10px;border-radius:20px;font-weight:800}
+.shield{display:flex;gap:10px;background:#f0fff4;padding:10px;border-radius:12px;margin:8px 0;border-left:4px solid #00ff88}
+.shield b{font-size:13px} .shield p{font-size:11px;color:#555}
+.nav{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:1px solid #e5e5e5;display:grid;grid-template-columns:repeat(4,1fr);padding:8px 0;text-align:center;font-size:11px;font-weight:700}
+</style>
+</head>
+<body>
+<div class="top"><div class="logo">LAVARCH<i>.SECURE</i></div><div class="badge">7 BOUCLIERS</div></div>
+
+<div class="card">
+<div class="t">🛡️ Ton Coffre Sécurisé</div>
+<div class="wallet">
+<div><small style="opacity:.6">DISPONIBLE</small><h1>12.500 FC</h1><small>Limite 2.000 FC/j</small></div>
+<div style="text-align:right"><small style="opacity:.6">COFFRE 24H</small><h1 style="color:#fff">45.000 FC</h1><small>Anti-fraude</small></div>
+</div>
+<div class="limit">⚠️ Protection LAVARCH: Tu ne peux soutenir que 2.000 FC aujourd'hui. On te protège de te ruiner.</div>
+</div>
+
+<div class="card">
+<div class="t">🔺 TRIANGLE MILLIONNAIRE - Ton idée mélangée</div>
+<div class="grid3">
+<div class="tri"><h2>95/100</h2><p>MINAGE<br>Talent mine seul</p></div>
+<div class="tri"><h2>2.5M</h2><p>BOURSE<br>Valeur groupe</p></div>
+<div class="tri"><h2>3M</h2><p>MYSTÈRE<br>Cagnotte semaine</p></div>
+</div>
+<p style="font-size:12px;color:#666;margin-top:10px">Ton talent fait monter ton groupe → ton groupe enrichit tes amis actionnaires → tous nourrissent la cagnotte qui fait un millionnaire au hasard.</p>
+<button class="btn" onclick="alert('⛏️ Minage: +5.000 FC ajoutés au coffre 24h. Vérification anti-fraude en cours...')">⛏️ RÉCOLTER MINAGE DE LA NUIT +5.000 FC</button>
+</div>
+
+<div class="card">
+<div class="t">💎 Groupes Entreprises</div>
+<div class="group"><div class="av">SG</div><div style="flex:1"><b>SAPE GOMBE SA</b><br><small>Valeur 2.5M FC - 12% vendu</small></div><button class="btn-dark" onclick="alert('🛡️ Achat bloqué 24h dans coffre pour vérification. Sécurité LAVARCH active.')">Acheter 5%</button></div>
+<div class="group"><div class="av">CM</div><div style="flex:1"><b>COUTURE MATETE</b><br><small>Valeur 1.8M FC - 30% COMPLET</small></div><button class="btn-dark" style="background:#eee;color:#999">Complet</button></div>
+</div>
+
+<div class="card">
+<div class="t">🏆 Mur des Millionnaires</div>
+<p style="font-size:12px">124 jeunes de Kin déjà millionnaires. Dimanche 20h: tirage 3.000.000 FC</p>
+<div style="display:flex;gap:8px;margin-top:12px"><div style="width:38px;height:38px;border-radius:50%;background:#00ff88"></div><div style="width:38px;height:38px;border-radius:50%;background:#111"></div><div style="width:38px;height:38px;border-radius:50%;background:#00d4ff"></div><div style="width:38px;height:38px;border-radius:50%;border:2px dashed #00ff88;display:flex;align-items:center;justify-content:center;font-weight:900">?</div></div>
+</div>
+
+<div class="nav"><div>🏠<br>Accueil</div><div>💎<br>Bourse</div><div>⛏️<br>Minage</div><div style="color:#00ff88">🛡️<br>Secure</div></div>
+</body>
+</html>
